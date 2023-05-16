@@ -11,7 +11,8 @@ A new Flutter project.
 ## Directory Structure
 ```
 lib
-│───main.dart    
+│───constant.dart
+│───main.dart
 └───core
 │    │───service
 │    |    │──local
@@ -56,14 +57,35 @@ lib
 │    │──details
 │    │   └──details_view.dart 
 │    │──home
-│        │──component
-             │──category_view.dart
-│            │──product_view.dart
-             └──search_text_form_field.dart 
+│    │   │──component
+│    │   │   │──category_view.dart
+│    │   │   │──product_view.dart
+│    │   │   └──search_text_form_field.dart 
+│    │   └──home_view.dart
+│    │──login    
+│    │    │──widgets
+│    │    │   │──custtom_button.dart
+│    │    │   │──custtom_button_social.dart
+│    │    │   │──custtom_text.dart
+│    │    │   │──custtom_text_form_field.dart
+│    │    │   └──summary.dart 
+│    │    │──login_view.dart   
+│    │    └──register_view.dart
+│    │──oder_history
+│    │   │──widgets
+│    │   │   └──order_detailed.dart
+│    │   └──order_history_view.dart 
+│    │─profile   
+│    │  │──widgets 
+│    │  │   │──cards_view.dart 
+│    │  │   │──edite_profile_view.dart
+│    │  │   └──notifications_view.dart
+│    │  └──profile_view.dart 
+│    └──welcome_page_view.dart 
 │
-
-
-
+│
+│
+│
 ## Pull Requests
 
 I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
