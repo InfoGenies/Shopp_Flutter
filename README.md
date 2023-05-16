@@ -4,9 +4,11 @@ A new Flutter project.
 
 ## Screenshots
 
-  HomePage                 |   Product Detail Page        |  Cart Page
+  WelocmePage                 |   SignIn        |  SignUp
 :-------------------------:|:-------------------------:|:-------------------------:
-![]()|![]()|![]()
+![](https://firebasestorage.googleapis.com/v0/b/shopappflutter-73fe5.appspot.com/o/Screen%2FScreenshot_20230516-143552.jpg?alt=media&token=c482b0ca-b392-4f41-b5ce-6bff7f615ba1)|![](https://firebasestorage.googleapis.com/v0/b/shopappflutter-73fe5.appspot.com/o/Screen%2FScreenshot_20230516-143617.jpg?alt=media&token=aba0e7c6-627e-43f1-ba73-b403d2528f28)|![](https://firebasestorage.googleapis.com/v0/b/shopappflutter-73fe5.appspot.com/o/Screen%2FScreenshot_20230516-143810.jpg?alt=media&token=4756a256-8e9f-40bc-b0dd-bb14515730a8)
+
+
 
 ## Directory Structure
 ```
