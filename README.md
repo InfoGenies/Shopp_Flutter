@@ -2,15 +2,106 @@
 
 A new Flutter project.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
+  HomePage                 |   Product Detail Page        |  Cart Page
+:-------------------------:|:-------------------------:|:-------------------------:
+![]()|![]()|![]()
 
-A few resources to get you started if this is your first Flutter project:
+## Directory Structure
+```
+lib
+│───main.dart    
+└───core
+│    │───service
+│    |    │──local
+│    |    |   └──local_carte.dart
+│    |    |──remote
+│    |        │──auth_service.dart
+│    |        │──checkout_service.dart
+│    |        │──firestore_user.dart
+│    |        └──home_service.dart     
+│    |───view_model
+│    |    │──auth_view_model.dart
+│    |    │──checkout_view_model.dart
+│    |    │──control_view_model.dart
+│    |    │──controller.dart
+│    |    │──home_view_model.dart
+│    |    │──profil_view_model.dart
+│    |    └──select_image_view_model.dart     
+│    |───network_viewmodel.dart
+└───extension
+│    │──color_extension.dart
+│    │──string_extension.dart
+└───helper
+│    │──binding.dart
+└───model
+│    │──category_model.dart
+│    │──current_adress.dart
+│    │──order_model.dart
+│    │──product_model.dart
+│    │──product_model.g.dart
+│    └──user_model.dart   
+└───view
+│    │──cart
+│    │   └──carte_view.dart   
+│    │──category
+│    │   └──category_grid_view.dart   
+│    │──checkout 
+│    │   │──widgets
+│    │       │──adress_view.dart
+│    │       │──delivery_time.dart
+│    │       └──summary.dart 
+│    └────check_out_view.dart 
+│    │──details
+│    │   └──details_view.dart 
+│    │──home
+│        │──component
+             │──category_view.dart
+│            │──product_view.dart
+             └──search_text_form_field.dart 
+│
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Pull Requests
+
+I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
+
+## Flutter projects
+ Project Name        |Stars        
+:-------------------------|-------------------------
+[Twitter clone](https://github.com/TheAlphamerc/flutter_twitter_clone)| [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone)
+|[Healthcare App](https://github.com/TheAlphamerc/flutter_healthcare_app) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_healthcare_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_healthcare_app)
+|[Smart course](https://github.com/TheAlphamerc/flutter_smart_course) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_smart_course?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_smart_course)
+|[Pokedex](https://github.com/TheAlphamerc/flutter_pokedex)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_pokedex?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_pokedex)
+|[Authentication](https://github.com/TheAlphamerc/flutter_login_signup)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_login_signup?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_login_signup)
+|[Wallet App](https://github.com/TheAlphamerc/flutter_wallet_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_wallet_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_wallet_app)
+|[News App](https://github.com/TheAlphamerc/flutter_news_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_news_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_news_app)
+|[Watch App](https://github.com/TheAlphamerc/flutter_SoftUI_watchApp)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_SoftUI_watchApp?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_SoftUI_watchApp)
+|[Smart Home App](https://github.com/TheAlphamerc/flutter_smart_home_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_smart_home_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_smart_home_app)
+|[Yatch Booking App](https://github.com/TheAlphamerc/flutter_yatch_booking)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_yatch_booking?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_yatch_booking)
+
+## Flutter plugins
+Plugin Name        | Stars        
+:-------------------------|-------------------------
+|[Empty widget](https://github.com/TheAlphamerc/empty_widget) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/empty_widget?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%empty_widget)
+|[Add Thumbnail](https://github.com/TheAlphamerc/flutter_plugin_add_thumbnail) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_plugin_add_thumbnail?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_plugin_add_thumbnail)
+|[Filter List](https://github.com/TheAlphamerc/flutter_plugin_filter_list)| [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_plugin_filter_list?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_plugin_filter_list)
+
+## Created & Maintained By
+
+[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
+  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
+
+
+> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
+>
+> * [PayPal](https://www.paypal.me/TheAlphamerc/)
+
+> You can also nominate me for Github Star developer program
+> https://stars.github.com/nominate
+
+## Visitors Count
+
+<img align="left" src = "https://profile-counter.glitch.me/flutter_ecommerce_app/count.svg" alt ="Loading">
