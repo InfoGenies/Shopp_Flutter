@@ -1,6 +1,6 @@
 # shope_app_flutter
 
-A new Flutter project.
+Shopp is An E-Commerce  application that is a convenient and user-friendly platform that allows users to effortlessly purchase a wide range of products, including shoes, smartwatches, TVs, and more. With a simple and intuitive interface, users can browse through an extensive catalog, explore various product options, and make secure purchase
 
 ## Screenshots
 
