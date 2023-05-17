@@ -42,9 +42,11 @@ lib
 │    |───network_viewmodel.dart
 └───extension
 │    │──color_extension.dart
-│    │──string_extension.dart
+│    └──sstring_extension.dart
+│
 └───helper
-│    │──binding.dart
+│    └──binding.dart
+│
 └───model
 │    │──category_model.dart
 │    │──current_adress.dart
@@ -76,14 +78,14 @@ lib
 │    │   └──home_view.dart
 │    │ 
 │    │──login    
-│    │    │──widgets
-│    │    │   │──custtom_button.dart
-│    │    │   │──custtom_button_social.dart
-│    │    │   │──custtom_text.dart
-│    │    │   │──custtom_text_form_field.dart
-│    │    │   └──summary.dart 
-│    │    │──login_view.dart   
-│    │    └──register_view.dart
+│    │   │──widgets
+│    │   │   │──custtom_button.dart
+│    │   │   │──custtom_button_social.dart
+│    │   │   │──custtom_text.dart
+│    │   │   │──custtom_text_form_field.dart
+│    │   │   └──summary.dart 
+│    │   │──login_view.dart   
+│    │   └──register_view.dart
 │    │ 
 │    │──oder_history
 │    │   │──widgets
