@@ -56,21 +56,25 @@ lib
 │    │──cart
 │    │   └──carte_view.dart   
 │    │──category
-│    │   └──category_grid_view.dart   
+│    │   └──category_grid_view.dart
+│    │ 
 │    │──checkout 
 │    │   │──widgets
 │    │       │──adress_view.dart
 │    │       │──delivery_time.dart
 │    │       └──summary.dart 
-│    └────check_out_view.dart 
+│    └────check_out_view.dart
+│    │ 
 │    │──details
-│    │   └──details_view.dart 
+│    │   └──details_view.dart
+│    │ 
 │    │──home
 │    │   │──component
 │    │   │   │──category_view.dart
 │    │   │   │──product_view.dart
 │    │   │   └──search_text_form_field.dart 
 │    │   └──home_view.dart
+│    │ 
 │    │──login    
 │    │    │──widgets
 │    │    │   │──custtom_button.dart
@@ -80,16 +84,20 @@ lib
 │    │    │   └──summary.dart 
 │    │    │──login_view.dart   
 │    │    └──register_view.dart
+│    │ 
 │    │──oder_history
 │    │   │──widgets
 │    │   │   └──order_detailed.dart
-│    │   └──order_history_view.dart 
+│    │   └──order_history_view.dart
+│    │ 
 │    │─profile   
 │    │  │──widgets 
 │    │  │   │──cards_view.dart 
 │    │  │   │──edite_profile_view.dart
 │    │  │   └──notifications_view.dart
-│    │  └──profile_view.dart 
+│    │  └──profile_view.dart
+│    │
+│    │
 │    └──welcome_page_view.dart 
 │
 │
