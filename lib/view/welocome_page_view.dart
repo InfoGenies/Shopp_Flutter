@@ -12,10 +12,11 @@ class WelcomePage extends GetWidget<AuthViewModel> {
 
   @override
   Widget build(BuildContext context) {
+    // check if the user is signing in and also check if the internet is available
     return Obx(() {
       return (authViewModel.user == null)
           ? LoginView()
-          : Get.find<NetworkViewModel>().connectionStatus.value == 1 ||
+          : networkViewModel.connectionStatus.value == 1 ||
                   Get.find<NetworkViewModel>().connectionStatus.value == 2
               ? GetBuilder<ControlViewModel>(
                   builder: (controller) => Scaffold(

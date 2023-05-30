@@ -1,8 +1,4 @@
-import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-
-import '../extension/color_extension.dart';
-
 part 'product_model.g.dart';
 
 @HiveType(typeId: 1)

@@ -18,8 +18,10 @@ Future<void> main() async {
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: Colors.transparent,
   ));
+
   await Hive.initFlutter();
   await Firebase.initializeApp();
+  // serialization and deserialization
   Hive.registerAdapter(ProductModelAdapter());
   configLoading();
   runApp(const MyApp());

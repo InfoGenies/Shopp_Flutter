@@ -4,6 +4,7 @@ import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:get/get.dart';
 
 class NetworkViewModel extends GetxController {
+  static NetworkViewModel instance  = Get.find();
   var connectionStatus = 0.obs;
   late StreamSubscription<ConnectivityResult> _connectivitySubscription;
 

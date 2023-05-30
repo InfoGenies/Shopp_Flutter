@@ -2,7 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:intl/intl.dart';
 
-import '../../../model/Order_model.dart';
+import '../../../model/order_model.dart';
 import '../../../model/current_adress.dart';
 import '../../../model/product_model.dart';
 

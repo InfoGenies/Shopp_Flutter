@@ -5,7 +5,7 @@ import 'package:shope_app_flutter/model/current_adress.dart';
 import 'package:shope_app_flutter/model/product_model.dart';
 
 import '../../constant.dart';
-import '../../model/Order_model.dart';
+import '../../model/order_model.dart';
 import '../service/remote/checkout_service.dart';
 
 class CheckoutViewModel extends GetxController {
